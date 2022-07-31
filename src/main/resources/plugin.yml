@@ -1,0 +1,11 @@
+name: GitSync
+version: '${project.version}'
+main: ch.kevinberger.gitsync.GitSync
+api-version: 1.19
+prefix: GitSync
+load: STARTUP
+authors: [ KevinBerger ]
+website: kevinberger.ch
+commands:
+  save-to-git:
+    description: Saves the world to git
